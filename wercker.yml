@@ -1,0 +1,8 @@
+box: attilaolah/gentoo
+build:
+  steps:
+    - attilaolah/emerge:
+        atom: "figlet"
+    - attilaolah/emerge:
+        atom: "=app-arch/lzma-9.20"
+        use: "doc"
